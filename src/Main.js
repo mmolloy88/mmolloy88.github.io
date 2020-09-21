@@ -12,7 +12,7 @@ import Resume from "./Resume";
 import Contact from "./Contact";
 
 import Projects from "./Projects";
-import Images from "./Images";
+// import Images from "./Images";
  
 // app frame
 class Main extends Component {
@@ -28,7 +28,7 @@ class Main extends Component {
             
             <li><NavLink to="/projects">Projects</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
-            <li><NavLink to="/Images">Images</NavLink></li>
+            {/* <li><NavLink to="/Images">Images</NavLink></li> */}
 
           </ul>
           <div className="content">
@@ -38,7 +38,7 @@ class Main extends Component {
             
             <Route path="/Projects" component={Projects}/>
             <Route path="/contact" component={Contact}/>
-            <Route path="/Images" component={Images}/>
+            {/* <Route path="/Images" component={Images}/> */}
 
           </div>
         
