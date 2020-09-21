@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background: rgb(45,118,127);
     background: linear-gradient(90deg, rgba(45,118,127,1) 70%, rgb(11, 171, 137) 100%);
@@ -56,7 +60,10 @@ body {
   }
 
   .skilllist {
+    width: 50%;
+    padding: 20px;
     list-style-type: none;
+    columns: 2 auto;
   }
 
   .footer {

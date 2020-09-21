@@ -10,9 +10,9 @@ import Home from "./Home";
 import About from "./About"
 import Resume from "./Resume";
 import Contact from "./Contact";
-import Game from "./Game";
-import Projects from "./Projects";
 
+import Projects from "./Projects";
+import Images from "./Images";
  
 // app frame
 class Main extends Component {
@@ -25,18 +25,20 @@ class Main extends Component {
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="./About">About Me</NavLink></li>
             <li><NavLink to="/Resume">Resume</NavLink></li>
-            <li><NavLink to="/game">Tic Tac Toe</NavLink></li>
+            
             <li><NavLink to="/projects">Projects</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><NavLink to="/Images">Images</NavLink></li>
 
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/About" component={About}/>
             <Route path="/Resume" component={Resume}/>
-            <Route path="/Game" component={Game}/>
+            
             <Route path="/Projects" component={Projects}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/Images" component={Images}/>
 
           </div>
         

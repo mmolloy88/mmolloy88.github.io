@@ -1,9 +1,14 @@
 import React, { Component } from "react";
+import Images from "./Images";
+import Game from "./Game";
 
 class Projects extends Component {
     render () {
         return (
             <div>
+
+                {Images}
+
                 <p>My coding journey started in ernest on the 24th of February 2020, at Coder
                     Academy, with an intensive bootcamp that was recommended to me. Prior to 
                     this I'd had little experience with code, from accessing the text docs 
@@ -49,7 +54,11 @@ class Projects extends Component {
                     a gaming forum... (work in progress)                   
                 {/* add image */}
                 </p><div className="bigbr"></div>
-
+                <h3>Tic Tac Toe</h3>
+                    <div>
+                        <div className="game"
+                        src={Game} > </div>
+                    </div>
             </div>
         );
     }

@@ -16,14 +16,25 @@ class Resume extends Component {
             https://www.linkedin.com/in/wearematt88/
             </a> <br/>
         
-       <br/><hr/>
+        <hr/>
           Career Objective: To find employment and grow my skills as a Web Developer.
        <br/><br/>
        </h4>
        <h4>Employment and Study history:</h4>
        <br/>
-        <h5>February 2020 - Present: Full-time student at Coder Academy<br/>
-          Diploma of Information Technology</h5> <br/>
+        <h5>
+          August - September 2020: Internship with Special Broadcasting Service (SBS) 
+        </h5>
+        <ul className="skilllist">
+          <li>Typescript React</li>
+          <li>Adobe Target</li>
+          <li>Material UI</li>
+          <li>Git Bucket</li>
+          <li>Large scale Component integration</li>
+        </ul>
+
+        <h5>February - August 2020: Full-time student at Coder Academy<br/>
+          Diploma of Information Technology</h5> 
         <ul className="skilllist">
           <li>Ruby and Rails integration</li>
           <li>HTML and CSS</li>
@@ -36,10 +47,11 @@ class Resume extends Component {
           <li>Discrete Math:
           Bases, Boolean, Logic, Big O notation</li>
         </ul>
+
        <hr/>
        <br/><br/>
        <h5>March 2017 - February 2020: Yes Optus Barangaroo <br/>
-       Business Specialist</h5> <br/>
+       Business Specialist</h5> 
               <ul className="skilllist">
                <li>Staff management</li>
                <li>Mobile software troubleshooting</li>
@@ -47,7 +59,7 @@ class Resume extends Component {
                <li>Conflict resolution</li>
               </ul>
        <br/><hr/>
-       <h5>March 2016 – October 2016: Huawei Retail Kiosk (BSI Contracting)</h5> <br/>    
+       <h5>March 2016 – October 2016: Huawei Retail Kiosk (BSI Contracting)</h5>    
           <ul className="skilllist">
               <li>Customer service rep</li>
               <li>Mobile technology and comparison</li>
@@ -58,7 +70,7 @@ class Resume extends Component {
        <hr/>
        
        <h5>2015 – December 2015: Officeworks Call Centre (National Workforce)
-       Customer Service Rep</h5><br/>
+       Customer Service Rep</h5>
           <ul className="skilllist"> 
               <li>Telephony and online customer service </li>
               <li>Inter-office communications</li>
@@ -68,7 +80,7 @@ class Resume extends Component {
        <hr/>
        
        <h5>2013 - December 2014: North Sydney Community Centre
-       After School Care Volunteer</h5><br/>
+       After School Care Volunteer</h5>
           <ul className="skilllist">
               <li>Setting up for activities and night classes</li>
               <li>Assisting carers throughout the afternoon</li>
@@ -77,7 +89,7 @@ class Resume extends Component {
        <hr/>
 
        <h5>2005 - December 2012: McDonalds, Lane Cove West
-       Trainee Manager</h5><br/>
+       Trainee Manager</h5>
           <ul className="skilllist">
               <li>OHS (heavy lifting, FIFO, hazard analysis)</li>
               <li>Balancing safe</li>
@@ -87,23 +99,20 @@ class Resume extends Component {
               <li>Cash handling</li>
           </ul>
        <hr/>
-       <ul className="skilllist">
-       <h4>Previous Education:</h4><br/>
+       
+       <h4>Previous Education:</h4>
        <h5>McDonalds Australia</h5><br/>
        2012 - 2013: Retail, Certificate III
        
-       <br/>
-       
        <h5>Marist College North Shore</h5><br/>
        2001 – 2006: HSC
-       <br/>
-       </ul>
+       <br></br>
+       <br></br>
        <hr/>
-       <ul className="skilllist">
+       
        <h5> Interests and hobbies:</h5><br/>
        
           Rock and metal music, Magic the Gathering, driving, video games and comics.
-       </ul>
       </div>
     );
   }
