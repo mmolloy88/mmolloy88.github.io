@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import image from './docs/skellyboy.png';
- 
+
 class Home extends Component {
   render() {
     return (
@@ -16,6 +16,5 @@ class Home extends Component {
     );
   }
 }
- 
 
 export default Home;

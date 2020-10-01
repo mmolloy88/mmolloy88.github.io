@@ -9,8 +9,7 @@ import {
 import Home from "./Home";
 import About from "./About"
 import Resume from "./Resume";
-import Contact from "./Contact";
-
+import Contact from "./Contact"; 
 import Projects from "./Projects";
 // import Images from "./Images";
  
@@ -27,7 +26,7 @@ class Main extends Component {
             <li><NavLink to="/Resume">Resume</NavLink></li>
             
             <li><NavLink to="/projects">Projects</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
+            {/* <li><NavLink to="/contact">Contact</NavLink></li> */}
             {/* <li><NavLink to="/Images">Images</NavLink></li> */}
 
           </ul>
@@ -37,7 +36,7 @@ class Main extends Component {
             <Route path="/Resume" component={Resume}/>
             
             <Route path="/Projects" component={Projects}/>
-            <Route path="/contact" component={Contact}/>
+            {/* <Route path="/contact" component={Contact}/> */}
             {/* <Route path="/Images" component={Images}/> */}
 
           </div>
@@ -47,7 +46,7 @@ class Main extends Component {
             <br/><br/>©
           </div>
         </div>
-
+        <Contact />
       </HashRouter>
     );
   }

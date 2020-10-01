@@ -86,13 +86,26 @@ body {
     line-height: 250%;
   }
 
-  /* Social medias */
-
-  .socials{
-    padding: 25px 50px;
+  .padbox {
+    padding: 50px;
   }
 
-  a.socials{
+  /* Social medias */
+
+  .socbox {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-container {
+    background: #eee;
+    padding: 10px 25px;
+    display: inline;
+    justify-content: center;
+    border-radius: 25px;
+  }
+
+  a.social {
     margin: 0 1rem;
     transition: transform 250ms;
     display: inline-block;
@@ -107,17 +120,19 @@ body {
   }
 
   a.github {
-    color: #000
+    color: #000;
   }
 
   a.linkedIn {
-    color: #0072b1
+    color: #0072b1;
   }
 
-  .bucket {
-    display: flex;
-    justify-content: center;
-
+  a.visited, a.link {
+    text-decoration: none;
+  }
+  
+  span.fa {
+    text-decoration: none;
   }
 
 /* tic tac toe */

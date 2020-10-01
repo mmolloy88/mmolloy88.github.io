@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  
   faTwitter,
@@ -6,40 +6,25 @@ import {
   faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
  
-class Contact extends Component {
-  render() {
-    return (
-      
-        <div className="socials">
-          <h3>Check out my Github, linkedIn or twitter account: </h3>
-          <br/>
-        <div className="bucket">
-          <a
-              href="https://twitter.com/wearematt88"
-              className="twitter socials"
-          >
-            <FontAwesomeIcon icon={faTwitter} size="2x"/>
-          </a>
-          <a
-            href="https://github.com/mmolloy88"
-            className="github socials"
-          >
-            <FontAwesomeIcon icon={faGithub} size="2x"/>
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/wearematt88/"
-            className="linkedIn socials"
-          >
-            <FontAwesomeIcon icon={faLinkedin} size="2x"/>
-          </a>
-          
-          <br/>
-          
-          </div>
-        </div>
-    );
-  }
+export default function SocialFollow() {
+  return (
+    <div className="socbox"> 
+      <div class="social-container">
+        <h4>Social Media Links: </h4>
+        <a href="https://twitter.com/wearematt88"
+          className="twitter social">
+          <FontAwesomeIcon icon={faTwitter} size="2x" />
+        </a>
+        <a href="https://github.com/mmolloy88"
+          className="Github social">
+          <FontAwesomeIcon icon={faGithub} size="2x" />
+        </a>
+        <a href="https://www.linkedin.com/in/wearematt88/"
+          className="linkedin social">
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        </a>
+      </div>
+    </div> 
+  );
 }
  
-export default Contact;

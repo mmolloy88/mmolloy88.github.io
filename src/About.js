@@ -18,7 +18,7 @@ class About extends Component {
 
         <hr/>
         <i className="quote"> "Keep your hopes up high and your head down low" - Jeremy McKinnon</i>
-
+        <hr/>
       </div>
     );
   }
