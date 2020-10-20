@@ -19,7 +19,7 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-          <h1 className="WAM">We Are Matt</h1><span>  a project by Matt Molloy</span>     
+          <h1 className="WAM">We Are Matt</h1><span className="span1">  a project by Matt Molloy</span>     
           <ul className="header">
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="./About">About Me</NavLink></li>
