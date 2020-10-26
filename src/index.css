@@ -8,16 +8,55 @@ body {
     padding: 50px 30px;
     margin: 0;
   }
-  /*  
-    ORANGE THEME
+
+  @media only screen and (min-width:800px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width:100%;
+    }
+  }
+
+  .orange {
       background: rgb(222,99,42);
       background: linear-gradient(90deg, rgba(222,99,42,1) 75%, rgba(255,130,15,1) 100%); 
-  */
+  }
 
   /* PURPLE THEME 
       background: rgb(92,40,236);
       background: radial-gradient(circle, rgba(92,40,236,1) 50%, rgba(54,10,130,1) 100%);
   */
+
+  .btnbox {
+    float: right;
+    padding: 10px;
+  }
+  
+  button {
+    opacity: 0.6;
+    margin: 0px 10px;
+    width: 30px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 40%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  .grn {
+    background: rgb(45, 118, 127);
+  }
+  
+  .org {
+    background: rgb(222, 99, 42);
+  }
+  
+  .pur {
+    background: rgb(92, 40, 236);
+  }
 
   h1, h2, p, ul, li {
     font-family: sans-serif;
@@ -37,7 +76,13 @@ body {
     text-decoration: none;
     padding: 20px;
     display: inline-block;
+    transition: 0.6s   
   }
+
+  ul.header li a:hover {
+    background-color: #0BAB89;
+  }
+
   h1 {
     display:inline
   }
@@ -131,6 +176,7 @@ body {
 
   a.visited, a.link {
     text-decoration: none;
+    color: #103030;
   }
 
   a.social {
